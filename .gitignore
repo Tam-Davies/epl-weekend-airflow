@@ -1,0 +1,23 @@
+# API credentials and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+airflow_venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Airflow configuration, database and logs
+airflow_home/
+logs/
+
+# Local project data
+data/*
+!data/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
