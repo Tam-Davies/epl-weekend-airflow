@@ -314,3 +314,45 @@
 [2026-11-05T08:32:38.138+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:32:38.138+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-11-05T08:32:38.163+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:32:38.163+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2026-11-05T08:32:38.207+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.135 seconds
+[2026-11-05T08:33:52.878+0100] {processor.py:186} INFO - Started process (PID=17086) to work on /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:33:52.883+0100] {processor.py:914} INFO - Processing file /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-11-05T08:33:52.891+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:33:52.890+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:33:52.906+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:33:52.930+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:33:52.930+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-05T08:33:52.948+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:33:52.948+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-11-05T08:33:52.992+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.134 seconds
+[2026-11-05T08:35:06.262+0100] {processor.py:186} INFO - Started process (PID=17355) to work on /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:35:06.265+0100] {processor.py:914} INFO - Processing file /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-11-05T08:35:06.270+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:35:06.270+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:35:06.288+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:35:06.451+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:35:06.451+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-05T08:35:06.578+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:35:06.577+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-11-05T08:35:06.635+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.390 seconds
+[2026-11-05T08:35:47.735+0100] {processor.py:186} INFO - Started process (PID=17472) to work on /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:35:47.742+0100] {processor.py:914} INFO - Processing file /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-11-05T08:35:47.757+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:35:47.755+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:35:47.775+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:35:47.806+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:35:47.805+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-05T08:35:47.827+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:35:47.826+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-11-05T08:35:47.870+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.172 seconds
+[2026-11-05T08:37:01.563+0100] {processor.py:186} INFO - Started process (PID=17682) to work on /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:37:01.566+0100] {processor.py:914} INFO - Processing file /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-11-05T08:37:01.573+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:37:01.572+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:37:01.591+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:37:01.627+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:37:01.626+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-05T08:37:01.666+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:37:01.665+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-11-05T08:37:01.730+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.183 seconds
+[2026-11-05T08:38:12.576+0100] {processor.py:186} INFO - Started process (PID=17877) to work on /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:38:12.579+0100] {processor.py:914} INFO - Processing file /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-11-05T08:38:12.586+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:38:12.585+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:38:12.603+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:38:12.639+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:38:12.639+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-05T08:38:12.665+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:38:12.664+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-11-05T08:38:12.744+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.182 seconds
+[2026-11-05T08:39:28.177+0100] {processor.py:186} INFO - Started process (PID=18141) to work on /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:39:28.179+0100] {processor.py:914} INFO - Processing file /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-11-05T08:39:28.184+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:39:28.183+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:39:28.201+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-11-05T08:39:28.231+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:39:28.230+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-05T08:39:28.246+0100] {logging_mixin.py:190} INFO - [2026-11-05T08:39:28.246+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-11-05T08:39:28.282+0100] {processor.py:208} INFO - Processing /home/Tam-Davies/Projects/epl-weekend-airflow/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.122 seconds
