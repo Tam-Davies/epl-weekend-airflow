@@ -1,15 +1,20 @@
 import json
 import psycopg
 from pathlib import Path
+from dotenv import load_dotenv
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE_DIR / "data" / "matches.json"
 
+load_dotenv(BASE_DIR / ".env")
+
 DB_CONFIG = {
-    "dbname": "football_db",
-    "user": "postgres",
-    "host": "localhost",
-    "port": 5432,
+    "dbname": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "host": os.getenv("DB_HOST"),
+    "port": os.getenv("DB_PORT"),
 }
 
 def load_matches():
@@ -20,7 +25,6 @@ def load_matches():
 
     with psycopg.connect(**DB_CONFIG) as conn:
         with conn.cursor() as cur:
-
             cur.execute("""
                 CREATE SCHEMA IF NOT EXISTS raw;
 
@@ -45,9 +49,7 @@ def load_matches():
                         home_team, away_team, home_score, away_score,
                         winner, raw_data
                     )
-                    VALUES (
-                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
-                    )
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                     ON CONFLICT (match_id) DO UPDATE SET
                         match_date = EXCLUDED.match_date,
                         status = EXCLUDED.status,
