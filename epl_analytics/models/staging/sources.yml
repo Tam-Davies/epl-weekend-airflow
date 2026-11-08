@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: "Raw football data loaded from football-data.org API"
+
+    tables:
+      - name: matches
+        description: "Premier League match records"
+        columns:
+          - name: match_id
+            description: "Unique match identifier"

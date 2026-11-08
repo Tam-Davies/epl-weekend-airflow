@@ -1,0 +1,28 @@
+
+target/
+dbt_packages/
+logs/
+.env
+
+
+# Python virtual environments
+airflow_venv/
+dbt_venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Airflow generated files
+airflow_home/
+logs/
+
+# Environment variables
+.env
+
+# dbt generated files
+epl_analytics/target/
+epl_analytics/logs/
+epl_analytics/dbt_packages/
